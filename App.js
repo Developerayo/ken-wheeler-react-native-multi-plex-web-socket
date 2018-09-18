@@ -6,7 +6,6 @@ import { timer } from 'rxjs';
 import kenwheeler from './ken_wheeler.png';
 
 export default class App extends React.Component {
-
   state = { randomKens: {} };
   socket$ = webSocket('ws://localhost:8080');
 
